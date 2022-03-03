@@ -1,0 +1,84 @@
+body{
+	background-color: #c9e0da;
+	margin: 40px;
+}
+h1{
+	color: #646464;
+	font-family: Georgia, serif;
+}
+h2{
+	color: #646464;
+	font-family: Georgia, serif;
+}
+h3{
+	color: #3a5c65;
+	font-family: Georgia, serif;
+}
+p{
+	color: #2d3434;
+	font-family: Garamond, serif;
+}
+footer{
+	color: #2d3434;
+	font-family: Garamond, serif;
+	font-style: italic;
+	font-size:0.8em;
+	text-align:right;
+}
+img{
+	border: 3px solid #3a5c65;
+}
+.center{
+	display: block;
+	margin: auto;
+}
+nav{
+	text-align: center;
+	padding: 20px;
+}
+article{
+	text-align: justify;
+	background-color: #beccc8; 
+	padding: 5px;
+	margin: 15px;
+}
+aside{
+	column-rule-width: 1px;	background-color: #beccc8;
+	border: 3px solid #3a5c65;
+	padding: 5px;
+	margin: auto;
+}
+.foundations{
+	border: 3px solid #3a5c65;
+	background-color: #beccc8;
+	border-bottom: none;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 3px solid #3a5c65;
+}
+a.navlink{
+	background-color: #eaf1dd;
+	color: #2d3434;
+	text-decoration: none;
+	font-family: Garamond, serif;
+	font-size: 1.5em;
+	padding: 6px 4px;
+	margin: 4px;
+	border-right: 2px solid #999999;
+	border-bottom: 2px solid #999999;
+	border-top-width: 0px;
+	border-left-width: 0px;
+}
+a.navlink:hover{
+	color: #030;
+	border: 1px solid #999999;
+	border-right: 2px solid #999999;
+	border-bottom: 2px solid #999999;
+}
+a.navlink:active{
+	color: #7d8b87;
+	border-left: 2px solid #999999;
+	border-top: 2px solid #999999;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+}
